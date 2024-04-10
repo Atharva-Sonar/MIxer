@@ -64,6 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     'Content-Type': 'application/json',
                 },
                 body: JSON.stringify({ id: drinkId }),
+
             })
                 .then(response => {
                     if (!response.ok) { // Check if response status code is not ok (200-299)
